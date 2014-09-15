@@ -1,0 +1,15 @@
+---
+title: A descriptive analysis on the effects of harmful weather events in the United
+  States
+author: "Emile Silvis"
+date: "15 September 2014"
+output: html_document
+---
+
+# Synopsis
+
+# Data processing
+
+# Results
+
+# Conclusion
