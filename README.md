@@ -1,27 +1,16 @@
 # Coursera Reproducibe Research course project 2
-
 ## Introduction
+
+This assignment required students to analyse data from the National Oceanic and Atmospheric Administration (NOAA) in order to determine what types of weather events have the most negative consequences on population health and the economy in the United States.
+
+The report is published at http://rpubs.com/emilesilvis/dangerous-and-damaging-weather-events-in-the-us on the [RPubs](https://rpubs.com/) platform using the [knitr](http://yihui.name/knitr/) R package.
 
 ## Usage
 
-
-# 3 decisions:
-
-1. Health harmful?
-2. Economicly harmful?
-3. Event types - standardization is needed for EVTYPE
-
-https://class.coursera.org/repdata-006/forum/thread?thread_id=128
-
-ananlyse data from 1996 to 2011
-
-https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf
-
-Extra 5 states: http://simple.wikipedia.org/wiki/List_of_U.S._states
-
-https://ire.org/nicar/database-library/databases/storm-events/
-
-https://class.coursera.org/repdata-006/forum/thread?thread_id=63
-
-Maybe use multiplier digits too:
-https://class.coursera.org/repdata-006/forum/thread?thread_id=115#post-561
+* Clone the repository
+* CD into the cloned repository
+* Open R
+* Set the working directory to the cloned repostory
+* Run `library(knitr)`
+* Run `knit2html(input = 'report.Rmd')`
+* Look at `report.html`
